@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey: About You!</title>
+</head>
+<body>
+  <div class="container">
+    <h3>Tell Us About Yourself!</h3>
+    <div class="form">
+      <label for="formName">Your Name: </label>
+      <input id="formName">
+    </div><br>
+    <div class="speciesSelect">
+      <h4>What Is Your Spirit Animal?</h4>
+      <select class="form-control" id="species">
+        <option>Alligator</option>
+        <option>Hawk</option>
+        <option>House Cat</option>
+        <option>Sloth</option>
+      </select>
+    </div><br>
+    <h3>Which word makes you happiest?</h3>
+    <div class="radio">
+      <label>
+        <input type="radio" name="flavor" value="polkadot" checked>
+        Polkadot
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="flavor" value="house" checked>
+          House
+          </label>
+        </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="flavor" value="seven" checked>
+        Seven
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="flavor" value="cow" checked>
+          Cow
+          </label>
+        </div><br>
+      <div class="form-group">
+          <label for="born"><h3>When did Elvis die?</h3></label>
+          <input id="born" class="form-control" type="date">
+      </div><br>
+
+      <div class="form-group">
+        <label for="color">What is the color of your house? (exact hex code required)</label>
+        <input id="color" class="form-control" type="color">
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
